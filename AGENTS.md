@@ -8,17 +8,16 @@ This is a **monorepo for learning multiple technologies**. You may find differen
 
 ```
 /
-├── AGENTS.md                      # This file - general instructions for all topics
-├── README.md                      # General overview of the learning journey
-├── learn/
-│   ├── rust/
-│   │   ├── AGENTS.md              # Rust-specific instructions
-│   │   └── ...                    # Rust learning materials
-│   ├── kubernetes/
-│   │   ├── AGENTS.md              # Kubernetes-specific instructions
-│   │   └── ...                    # Kubernetes learning materials
-│   └── ...                        # Future learning topics
-└── ...
+├── AGENTS.md                      # Start here! See agent instructions
+├── README.md                      # How to use this repo with your AI agent
+└── learn/
+    ├── rust/                      # Currently learning: Rust
+    │   ├── AGENTS.md              # Rust-specific agent instructions
+    │   ├── curriculum.md          # Complete learning path (matches Rust book)
+    │   ├── progress.md            # Track your progress here
+    │   └── lesson-*/              # Lesson directories (to be created)
+    ├── kubernetes/                # Future topic: Kubernetes
+    └── ...                        # Future learning topics
 ```
 
 ## How to Use This Document
@@ -56,8 +55,8 @@ Understanding the user's background helps tailor explanations:
 - **Ruby / Ruby on Rails**: Previous daily driver. Senior-level
 - **ReactJS**: Frontend technology of choice. Mid-level
 - **Javascript / Typescript**: Used at Full Stack Engineer roles. Mid-level
-- **Kubernetes**: Used at roles that involve DevOps / Platfrom Engineering. Junior / Mid-level
-- **Terraform**: Used at roles that involve DevOps / Platfrom Engineering. Junior / Mid-level
+- **Kubernetes**: Used at roles that involve DevOps / Platform Engineering. Junior / Mid-level
+- **Terraform**: Used at roles that involve DevOps / Platform Engineering. Junior / Mid-level
 
 Use these as reference points when explaining new concepts. Prioritize Elixir and Ruby when doing so.
 
